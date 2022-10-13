@@ -1,151 +1,151 @@
 * {
-  margin: 0;
-  padding: 0;
-  border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
 }
 
 html,body {
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .container {
-  width: 90%;
-  display: flex;
-  justify-content: center;
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 .content {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  margin-right: 980px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 980px;
 }
 
 .header {
-  position: relative;
+    position: relative;
 }
 
 .header img {
-  position: absolute;
-  align-items: flex-start;
-  justify-content: flex-start;
-  left: 0;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: flex-start;
+    left: 0;
 }
 
 .cards {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.card {
-  width: 280px;
-  height: 450px;
-  border-radius: 2px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-
-.header {
-  border: 1px rgb(227, 227, 227) solid;
-  height: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.price {
-  border: 1px rgb(227, 227, 227) solid;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.list {
-  border: 1px rgb(227, 227, 227) solid;
-  height: 65%;
-  display: flex;
-  flex-direction: column;
-  padding-top: 25px;
-  align-items: center;
-  border-bottom: none;
-}
-
-.list p {
-  height: 50px;
-}
-
-h3 {
-  font: 800 30px/0.8 "Raleway";
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
-
-header h4 {
-  font: 18px "Karla";
-  color: rgb(129, 129, 129);
-  margin-bottom: 30px;
-}
-
-.butt-on {
-  height: 18%;
-  display: flex;
-  justify-content: center;
-  height: fit-content;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
-.start-now {
-  display: flex;
-  border-radius: 20px;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border: none;
-  background-color: #29c2e1;
-  color: white;
-  cursor: pointer;
-}
-
-@media (max-width: 1280px) {
-  .cards {
     display: flex;
     justify-content: center;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 700px;
-  }
+}
 
-  header {
+.card {
+    width: 280px;
+    height: 450px;
+    border-radius: 2px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     display: flex;
     flex-direction: column;
-    margin-right: 480px;
-  }
+    margin: 10px;
+}
+
+.header {
+    border: 1px rgb(227, 227, 227) solid;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    border: 1px rgb(227, 227, 227) solid;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    border: 1px rgb(227, 227, 227) solid;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    align-items: center;
+    border-bottom: none;
+}
+
+.list p {
+    height: 50px;
+}
+
+h3 {
+    font: 800 30px/0.8 "Raleway";
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+header h4 {
+    font: 18px "Karla";
+    color: rgb(129, 129, 129);
+    margin-bottom: 30px;
+}
+
+.butt-on {
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.start-now {
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: #29c2e1;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 700px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        margin-right: 480px;
+    }
 }
 
 @media (max-width: 768px) {
-  .cards {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
